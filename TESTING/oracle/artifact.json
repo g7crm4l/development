@@ -1,0 +1,31 @@
+	
+{
+
+"$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+
+
+"title": "Oracle",
+
+"publisher": "Oracle",
+
+"description": "Install oracle with default options",
+
+"tags": [
+
+"Windows",
+
+"vs_professional"
+
+],
+
+"iconUri": "",
+
+"targetOsType": "Windows",
+
+"runCommand": {
+
+"commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startInstall.ps1\"')]"
+
+}
+
+}
